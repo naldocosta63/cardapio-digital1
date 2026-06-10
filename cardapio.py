@@ -33,7 +33,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='main-title'>🍕 Cantinho do Sabor</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-title'>🍕 Express Food</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Monte o seu pedido e envie diretamente pelo WhatsApp!</div>", unsafe_allow_html=True)
 
 # Número de telefone do restaurante (Substitua com o DDD + o seu número)
@@ -177,7 +177,7 @@ if total_itens > 0:
         
     # Criação e estruturação da mensagem automatizada para envio
     if dados_validos:
-        mensagem = f"*Novo Pedido - Cantinho do Sabor* 🍕\n"
+        mensagem = f"*Novo Pedido - Express Food* 🍕\n"
         mensagem += f"-----------------------------------------\n"
         mensagem += f"👤 *Cliente:* {nome_cliente}\n"
         mensagem += f"📞 *Contato:* {contato_cliente}\n"
